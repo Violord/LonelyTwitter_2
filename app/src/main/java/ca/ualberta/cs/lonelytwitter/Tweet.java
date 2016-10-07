@@ -4,6 +4,9 @@ import java.util.Date;
 
 /**
  * Created by watts1 on 9/15/16.
+ * This class provides the basic unit of message: Tweet
+ * @see TweetList
+ * @see Tweetable
  */
 public abstract class Tweet implements Tweetable {
     private String message;
